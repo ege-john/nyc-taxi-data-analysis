@@ -5,21 +5,20 @@ This project analyzes NYC taxi trip data, processes CSV files, calculates statis
 
 ## 📝 Tasks
 
-### Task 1: Data Processing & Statistics Calculation
-- Reads taxi trip data from CSV files.
-- Extracts relevant fields like `passenger_count`, `pickup/dropoff times`, and `location IDs`.
-- Computes **minimum, maximum, and average values** for trip statistics.
-- Filters valid speed values and calculates **average, minimum, and maximum speeds**.
+### Task 1: Data Processing & Statistics
+- Reads and extracts key trip data fields.
+- Computes trip statistics (min, max, avg).
+- Filters and calculates valid speed values.
 
-### Task 2: Sorting Algorithms & Performance Measurement
-- Implements **Merge Sort, Bubble Sort, QuickSort, and HeapSort**.
-- Sorts trip data based on different fields (e.g., time, speed).
-- Measures execution time for sorting algorithms to compare efficiency.
+### Task 2: Sorting Algorithms & Performance
+- Implements multiple sorting methods (Merge, Bubble, Heap and QuickSort).
+- Sorts trip data by time and speed.
+- Compares sorting efficiency through execution time.
 
-### Task 3: Graph Construction & Traversal
-- Builds a graph using **taxi zones as nodes** and **trip counts as weighted edges**.
-- Uses **DFS, BFS, and NetworkX** to analyze connected components.
-- Visualizes the graph and compares traversal performance.
+### Task 3: Graph Construction & Analysis
+- Builds a graph with taxi zones and trip connections.
+- Uses DFS, BFS, and NetworkX to find components.
+- Visualizes trip frequency through graphs.
 
 ## 🛠️ Technologies Used 
 - **Python** (Data Processing & Algorithms)
